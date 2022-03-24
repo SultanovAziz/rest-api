@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfa233ee-3240-4848-9ed0-bffc9e412fcd" name="Default Changelist" comment="add db class to connection in data base">
-      <change afterPath="$PROJECT_DIR$/objects/Product.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/create.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/read.php" afterDir="false" />
+    <list default="true" id="cfa233ee-3240-4848-9ed0-bffc9e412fcd" name="Default Changelist" comment="add product object and function create and read this object">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/category/DataBase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pattern/TSingeltone.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/category/DataBase.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/DataBase.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +31,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\rest-api\config" />
       <recent name="C:\OpenServer\domains\rest-api\product" />
     </key>
   </component>
@@ -47,7 +44,7 @@
       <option name="presentableId" value="Default" />
       <updated>1648061369167</updated>
       <workItem from="1648061370461" duration="580000" />
-      <workItem from="1648102395722" duration="4434000" />
+      <workItem from="1648102395722" duration="15737000" />
     </task>
     <task id="LOCAL-00001" summary="add db class to connection in data base">
       <created>1648103628215</created>
@@ -56,7 +53,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648103628215</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add product object and function create and read this object">
+      <created>1648107220044</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1648107220044</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,6 +79,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add db class to connection in data base" />
-    <option name="LAST_COMMIT_MESSAGE" value="add db class to connection in data base" />
+    <MESSAGE value="add product object and function create and read this object" />
+    <option name="LAST_COMMIT_MESSAGE" value="add product object and function create and read this object" />
   </component>
 </project>
