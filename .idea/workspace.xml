@@ -1,9 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfa233ee-3240-4848-9ed0-bffc9e412fcd" name="Default Changelist" comment="add product object and function create and read this object">
+    <list default="true" id="cfa233ee-3240-4848-9ed0-bffc9e412fcd" name="Default Changelist" comment="add function CRUD,search and pagination">
+      <change afterPath="$PROJECT_DIR$/assets/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/bootbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/bootbox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/create-product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/delete-product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/products.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/read-one-product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/read-products.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/search-products.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/update-product.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category/DataBase.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/DataBase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/core.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/core.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/objects/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/objects/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/product/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/product/delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/read_one.php" beforeDir="false" afterPath="$PROJECT_DIR$/product/read_one.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/read_paging.php" beforeDir="false" afterPath="$PROJECT_DIR$/product/read_paging.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/product/search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/product/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/Utilities.php" beforeDir="false" afterPath="$PROJECT_DIR$/shared/Utilities.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +35,26 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="4" />
   </component>
   <component name="ProjectId" id="26nZZqiRt2X4Gdbfy4Va8EA9KUE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -26,11 +66,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/js" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\rest-api\assets\js" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\rest-api\assets\js" />
       <recent name="C:\OpenServer\domains\rest-api\config" />
       <recent name="C:\OpenServer\domains\rest-api\product" />
     </key>
@@ -44,7 +88,9 @@
       <option name="presentableId" value="Default" />
       <updated>1648061369167</updated>
       <workItem from="1648061370461" duration="580000" />
-      <workItem from="1648102395722" duration="15737000" />
+      <workItem from="1648102395722" duration="21898000" />
+      <workItem from="1648130682861" duration="133000" />
+      <workItem from="1648130854996" duration="11105000" />
     </task>
     <task id="LOCAL-00001" summary="add db class to connection in data base">
       <created>1648103628215</created>
@@ -60,7 +106,21 @@
       <option name="project" value="LOCAL" />
       <updated>1648107220044</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="corrected DataBase in folder config">
+      <created>1648118858767</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1648118858767</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add function CRUD,search and pagination">
+      <created>1648131118076</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1648131118076</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,10 +136,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add db class to connection in data base" />
     <MESSAGE value="add product object and function create and read this object" />
-    <option name="LAST_COMMIT_MESSAGE" value="add product object and function create and read this object" />
+    <MESSAGE value="corrected DataBase in folder config" />
+    <MESSAGE value="add function CRUD,search and pagination" />
+    <option name="LAST_COMMIT_MESSAGE" value="add function CRUD,search and pagination" />
   </component>
 </project>
