@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfa233ee-3240-4848-9ed0-bffc9e412fcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/category/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/TSingeltone.php" afterDir="false" />
+    <list default="true" id="cfa233ee-3240-4848-9ed0-bffc9e412fcd" name="Default Changelist" comment="add db class to connection in data base">
+      <change afterPath="$PROJECT_DIR$/objects/Product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/create.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/read.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/category/DataBase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pattern/TSingeltone.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +33,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\rest-api\product" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -39,8 +47,16 @@
       <option name="presentableId" value="Default" />
       <updated>1648061369167</updated>
       <workItem from="1648061370461" duration="580000" />
-      <workItem from="1648102395722" duration="908000" />
+      <workItem from="1648102395722" duration="4434000" />
     </task>
+    <task id="LOCAL-00001" summary="add db class to connection in data base">
+      <created>1648103628215</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1648103628215</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -56,5 +72,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add db class to connection in data base" />
+    <option name="LAST_COMMIT_MESSAGE" value="add db class to connection in data base" />
   </component>
 </project>
